@@ -11,6 +11,19 @@ namespace Linq
             int[] numbers =  { 5, 4, 1, 3, 9, 8 };
 
 
+             List<string> nameList =new List<string>(){"Pranaya", "Kumar" };
+           
+            IEnumerable<char> querySyntax = from str in nameList
+                                            from ch in str
+                                            select ch;
+            foreach (char c in querySyntax)
+            {
+                Console.Write(c + " ");
+            }
+            Console.ReadKey();
+
+
+
 
             //Step1: Data Source
             List<int> integerList = new List<int>()
