@@ -9,7 +9,7 @@ namespace Linq
         static void Main(string[] args)
         {
             int[] numbers =  { 5, 4, 1, 3, 9, 8 };
-
+            //,,
 
              List<string> nameList =new List<string>(){"Pranaya", "Kumar" };
            
